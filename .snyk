@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: >-
+          Tidak ada versi perbaikan tersedia; pemakaian perlu dievaluasi lebih
+          lanjut
+        expires: 2027-12-31T00:00:00.000Z
+        created: 2026-11-08T11:53:55.227Z
+patch: {}
